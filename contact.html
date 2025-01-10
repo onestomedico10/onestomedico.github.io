@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Onesto Medico</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    .hero-section {
+        background: url('https://png.pngtree.com/background/20230527/original/pngtree-medical-equipment-and-medical-documents-picture-image_2767343.jpg') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 100px 0;
+      height: 400px;
+      width: 1500px;
+    }
+
+    .hero-section h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    .hero-section p {
+      font-size: 1.25rem;
+    }
+
+    .contact-form {
+      background: #f8f9fa;
+      padding: 50px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-info {
+      padding: 50px 0;
+    }
+
+    .contact-info h4 {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+    }
+
+    .contact-info p {
+      font-size: 1.1rem;
+    }
+
+    .map-container {
+      height: 400px;
+      width: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Hero Section -->
+<section class="hero-section">
+  <div class="container">
+    <h1>Contact Us</h1>
+    <p>We are here to assist you with your inquiries and needs.</p>
+  </div>
+</section>
+
+<!-- Contact Form and Info Section -->
+<section class="contact-info py-5">
+  <div class="container">
+    <div class="row">
+      <!-- Contact Form -->
+      <div class="col-md-6">
+        <div class="contact-form">
+          <h2>Get in Touch</h2>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your full name" required>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="Write your message here" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-md-6">
+        <h4>Contact Information</h4>
+        <p>Email: <a href="mailto:onestomedico@gmail.com">onestomedico@gmail.com</a></p>
+        <p>Phone: +91 8448369397</p>
+        <p>ONESTO MEDICO DELHI 110041</p>
+
+        <!-- Google Map Embed -->
+        <iframe 
+          class="map-container"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509639!2d-122.41941558468166!3d37.77492977975886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064cf30f5ff%3A0x5c6d8e5a2a515a6!2s123%20Health%20Lane%2C%20San%20Francisco%2C%20CA%2094103%2C%20USA!5e0!3m2!1sen!2sus!4v1695143104012!5m2!1sen!2sus" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center py-3 bg-dark text-light">
+  <p>&copy; 2024 Onesto Medico. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
